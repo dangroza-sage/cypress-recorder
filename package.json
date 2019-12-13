@@ -1,7 +1,7 @@
 {
-  "name": "cypress-recorder",
+  "name": "Intacct Cypress Recorder",
   "version": "0.0.3",
-  "description": "A Chrome extension for recording browser interaction and generating Cypress scripts",
+  "description": "Custom build chrome extension for recording browser interaction and generating Cypress scripts",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development DEBUG=puppeteer-recorder:* webpack --watch",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oscartavarez/cypress-recorder"
+    "url": "https://github.com/dangroza-sage/cypress-recorder"
   },
   "keywords": [
     "cypress",
@@ -28,9 +28,9 @@
   "author": "Tim Nolet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oscartavarez/cypress-recorder/issues"
+    "url": "https://github.com/dangroza-sage/cypress-recorder/issues"
   },
-  "homepage": "https://github.com/oscartavarez/cypress-recorder#readme",
+  "homepage": "https://github.com/dangroza-sage/cypress-recorder#readme",
   "dependencies": {
     "@medv/finder": "^1.1.0",
     "vue": "^2.5.17",
@@ -64,17 +64,17 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.5.0",
     "jest-vue-preprocessor": "^1.4.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.15",
     "node-sass": "^4.12.0",
     "pre-commit": "^1.2.2",
-    "puppeteer": "^1.7.0",
+    "puppeteer": "^1.20.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
     "superagent": "^3.8.3",
     "vue-loader": "^15.3.0",
     "vue-style-loader": "^4.1.1",
     "vue-template-compiler": "^2.5.17",
-    "webpack": "^4.16.5",
+    "webpack": "^4.41.2",
     "webpack-chrome-extension-reloader": "^0.8.3",
     "webpack-cli": "^3.1.0",
     "zip-folder": "^1.0.0"
