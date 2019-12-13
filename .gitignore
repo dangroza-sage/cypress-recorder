@@ -6,5 +6,6 @@ dist
 dist-zip
 *.pem
 *.crx
+package-lock.json
 
 
