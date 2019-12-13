@@ -10,8 +10,8 @@ class EventRecorder {
 
   start () {
     chrome.storage.local.get(['options'], ({ options }) => {
-      const {dataAttribute} = options ? options.code : {}
-	  const startContext = this;
+      const {dataAttribute} = options ? options.code : {};
+      const startContext = this;
       if (dataAttribute) {
         this.dataAttribute = dataAttribute
       }
@@ -44,7 +44,7 @@ class EventRecorder {
 	  });
 
       this.sendMessage({ control: 'event-recorder-started' });
-      console.debug('Cypress Recorder in-page EventRecorder started')
+      console.debug('Intacct Cypress Recorder in-page EventRecorder started')
     })
   }
 

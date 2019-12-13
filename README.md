@@ -1,4 +1,4 @@
-# Cypress Recorder
+# Intacct Cypress Recorder
 
 ![](src/images/recorder.png)
 Cypress recorder is a Chrome extension that records your browser interactions and generates a 
@@ -31,7 +31,7 @@ below) but add extensibility, configurability and a smoother UI.
 
 ## Development
 
-1. Run: `git clone https://github.com/oscartavarez/cypress-recorder.git`
+1. Run: `git clone https://github.com/dangroza-sage/cypress-recorder.git`
 2. Build the project: `cd cypress-recorder && npm i && npm run dev`
 2. Navigate to chrome://extensions
 3. Make sure 'Developer mode' is checked

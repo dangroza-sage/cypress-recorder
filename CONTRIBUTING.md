@@ -1,6 +1,6 @@
 # Contributing
 
-HI! Thanks you for your interest in Cypress Recorder! We'd love to accept your patches and contributions, but please remember that this project was started first and foremost to serve the users of the Checkly API and Site transaction monitoring service.
+HI! Thanks you for your interest in Intacct Cypress Recorder! We'd love to accept your patches and contributions, but please remember that this project was started first and foremost to serve the users of the Checkly API and Site transaction monitoring service.
 
 ## New feature guidelines
 
@@ -14,7 +14,7 @@ When authoring new features or extending existing ones, consider the following:
 1. Clone this repository
 
 ```bash
-git clone https://github.com/oscartavarez/cypress-recorder.git
+git clone https://github.com/dangroza-sage/cypress-recorder.git
 cd cypress-recorder
 ```
 
@@ -35,7 +35,7 @@ information on using pull requests.
 
 ## Code Style
 
-- Coding style is fully defined in [.eslintrc](https://github.com/oscartavarez/cypress-recorder/blob/master/.eslintrc.js)
+- Coding style is fully defined in [.eslintrc](https://github.com/dangroza-sage/cypress-recorder/blob/master/.eslintrc.js)
 - Comments should be generally avoided. If the code would not be understood without comments, consider re-writing the code to make it self-explanatory.
 
 To run code linter, use:

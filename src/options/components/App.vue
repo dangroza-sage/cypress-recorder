@@ -2,7 +2,7 @@
   <div class="options">
     <div class="container">
       <div class="header">
-        Cypress Recorder Options
+        Intacct # Cypress Recorder Options
         <small class="saving-badge text-muted" v-show="saving">
           Saving...
         </small>
