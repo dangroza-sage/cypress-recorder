@@ -161,7 +161,7 @@ class RecordingController {
   }
 
   injectScript() {
-    chrome.tabs.executeScript({file: 'content-script.js', allFrames: false});
+    chrome.tabs.executeScript({file: 'content-script.js', allFrames: true});
   }
 }
 
